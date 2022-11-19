@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { About } from "./components/about";
+import { Aplication } from "./components/app";
 import { Services } from "./components/services";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
+import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -24,10 +25,11 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
+      <Aplication data={landingPageData.Aplication} />
       <Team data={landingPageData.Team} />
       <Services data={landingPageData.Services} />
       <Testimonials data={landingPageData.Testimonials} />
+      <Footer data={landingPageData.Footer}/>
     </div>
   );
 };

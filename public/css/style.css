@@ -167,7 +167,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #f6640f;
-  background-image: linear-gradient(to right, #ff9c63 0%, #f6640f 100%);
+  background-image: linear-gradient(to right, #ff9c63 0%, #f76f20 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -214,26 +214,22 @@ a:focus,
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
   font-family: "Lexend Deca", sans-serif;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
 }
-.intro h1 span {
-  font-weight: 800;
-  color: #5ca9fb;
-}
 .intro p {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -245,33 +241,33 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
-/* About Section */
-#about {
+/* APP Section */
+#app {
   padding: 100px 0;
   background: linear-gradient(to right, #dff2d6 0%, #8be960 100%);
 }
-#about h3 {
+#app h3 {
   font-size: 22px;
   margin: 0 0 20px;
 }
-#about h2 {
+#app h2 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 50px;
 }
-#about h2::after {
+#app h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #c0f4a8 0%, #b9f29e 100%);
+  background: linear-gradient(to right, #6dc544 0%, #4bab1f 100%);
   height: 4px;
   width: 100px;
   bottom: 0;
   left: 0;
   color: black;
 }
-#about img {
+#app img {
   width: 350px;
   margin-top: 10px;
   background: #fff;
@@ -280,17 +276,17 @@ header .intro-text {
   border-radius: 50px;
   
 }
-#about p {
+#app p {
   line-height: 25px;
   margin: 30px 0;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   color: black;
 }
-#about .about-text {
+#app .app-text {
   padding-top: 170px;
 }
-#about .row{
+#app .row{
   border-spacing: 5px;
 }
 
@@ -398,4 +394,41 @@ header .intro-text {
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
+}
+/* Footer Section */
+#footer {
+  padding: 20px 0 60px;
+  background: linear-gradient(to right, #adf78b 0%, #95e96e 100%);
+}
+#footer img{
+  width: 75px;
+  margin-top: 10px;
+  border-right: 0;
+}
+#footer .social {
+  margin-top: 30px;
+  text-align: center;
+}
+#footer .social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+#footer .social i.fa {
+  font-size: 22px;
+  width: 48px;
+  height: 48px;
+  padding: 12px 0;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+#footer .social i.fa:hover {
+  color: #95e96e;
+  background: rgb(0, 0, 0);
+}
+#footer h6{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-size: 15px;
 }
